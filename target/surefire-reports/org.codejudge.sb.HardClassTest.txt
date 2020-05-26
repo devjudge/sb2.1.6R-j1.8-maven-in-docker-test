@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: org.codejudge.sb.HardClassTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 4.47 s <<< FAILURE! - in org.codejudge.sb.HardClassTest
+shouldFail_WhenRatingIsHigherThanCeiling  Time elapsed: 4.451 s  <<< ERROR!
+java.lang.IllegalArgumentException: You are trying to set a private static final primitive. Try using an object like Integer instead of int!
+	at org.codejudge.sb.HardClassTest.setUp(HardClassTest.java:49)
+
+shouldGiveTopRating_WhenRatingIsEqualToCeiling  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.IllegalArgumentException: You are trying to set a private static final primitive. Try using an object like Integer instead of int!
+	at org.codejudge.sb.HardClassTest.setUp(HardClassTest.java:49)
+
+shouldGiveHighRating_WhenRatingIsGreaterThanOrEqualTo_HalfCeiling  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.IllegalArgumentException: You are trying to set a private static final primitive. Try using an object like Integer instead of int!
+	at org.codejudge.sb.HardClassTest.setUp(HardClassTest.java:49)
+
+shouldGiveLOWRating_WhenRatingIsLowerThanTo_HalfCeiling  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalArgumentException: You are trying to set a private static final primitive. Try using an object like Integer instead of int!
+	at org.codejudge.sb.HardClassTest.setUp(HardClassTest.java:49)
+
+shouldGiveNotApplicable_WhenExternalRating_Disapproves  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalArgumentException: You are trying to set a private static final primitive. Try using an object like Integer instead of int!
+	at org.codejudge.sb.HardClassTest.setUp(HardClassTest.java:49)
+
+shouldAppendCache_WhenRatingEqualToCachedValue  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalArgumentException: You are trying to set a private static final primitive. Try using an object like Integer instead of int!
+	at org.codejudge.sb.HardClassTest.setUp(HardClassTest.java:49)
+
